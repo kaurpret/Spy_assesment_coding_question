@@ -8,7 +8,7 @@ def findSpy(number_of_people,has_information):
             else:
                 return 0
     else:
-        return 1
+        return has_information[0][0]
 if __name__=='__main__':
     number_of_people=3
     has_information=[[1,2],[2,3]]
